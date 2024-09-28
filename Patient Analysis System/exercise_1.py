@@ -1,0 +1,5 @@
+N = int(input("Write a number N: "))
+odd_sum = sum(range(1, N+1, 2))
+evens = range(2, N+1, 2)
+even_avg = sum(evens) / len(evens)
+print(f"Sum of odds: {odd_sum}\nAverage of evens: {even_avg}")
